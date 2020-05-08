@@ -1,0 +1,129 @@
+@import url("mobileNav.css");
+
+*{
+	margin: 0;
+	padding: 0;
+	background: none;
+	/* border: 1px solid red; */
+}
+/* .container-fluid{
+	padding: 0 1rem 0;
+} */
+
+.container-fluid{
+	padding: 0 2.5rem !important;
+}
+body{
+	background-color: #FDFAF5 !important;
+	padding-top: 8rem;
+}
+
+.sort_link{
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 1.5rem ;
+}
+.sort_link>div{
+	margin: 1rem 0 1rem;
+}
+.sort_link>div:nth-child(2){
+	font-family: "gillsans";
+	font-size: 1.5em;
+	margin-bottom: 2.5rem;
+}
+.sort_label{
+	display: flex;
+	color: #000000;
+	align-items: center;
+	justify-content: space-between;
+}
+.sort_label>div{
+	display: flex;
+	align-items: center;
+}
+.sort_label>div:nth-child(1)>span:nth-child(1){
+	font-weight: bold;
+	margin-right: 0.5rem;
+}
+.sort_label>div:nth-child(1)>span:not(:nth-child(1)){
+	display: flex;
+	/* width: 5.5rem; */
+	height: 1.875rem;
+	min-width: 5.5rem;
+	border: 1px solid black;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.5rem;
+	border-radius: 5px;
+	/* padding: 0 0.8rem; */
+}
+.sort_label>div:nth-child(2)>*{
+	font-weight: bold;
+	margin-left: 0.5rem;
+}
+
+.sort_label>div:nth-child(1)>span:not(:nth-child(1)):hover{
+	cursor: pointer;
+}
+.check{
+    background-color: #A96852;
+	color: white;
+	/* border-color: transparent !important; */
+	border: none !important;
+}
+.unCheck{
+	background: none;
+	color: #000000;
+	border: 1px solid black;
+}
+.article{
+	margin-top: 3%;
+}
+.article>div{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3%;
+}
+.article>div>div{
+	box-sizing: border-box;
+	width: 48.5%;
+	height: 18.538125rem;
+	/* border: 1px solid #E6E6E6; */
+	overflow: hidden;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* .article img{
+	width: 100%;
+} */
+.article>div>div:hover .article_show{
+	opacity: 1;
+	cursor: pointer;
+}
+.article_show{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(61, 34, 21, 0.7);
+	z-index: 99;
+	top: 0;
+	/* display: none; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: .8s;
+}
+.article_show>p{
+	color: white;
+	font-family: "GillSansItalic";
+	font-size: 1.5em;
+	width: 30%;
+	text-align: center;
+}
+.article_show>p:nth-child(2){
+	display: none;
+}

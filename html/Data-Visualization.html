@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/books.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/books_media.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/location.css"/>
+	<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/article.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/books.js" type="text/javascript" charset="utf-8"></script>
+	<title></title>
+</head>
+<body>
+	  <header>
+	 <script type="text/javascript">
+		$("header").load("headerStyle1.html")
+	 </script>
+	
+	  </header>
+	  
+	  <article class="container-fluid">
+		  <div class="sort_link">
+			  <div class="current_location">
+				   <span><a href="index.html">Home</a></span>
+				   <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+				   <span><a href="play.html">Play</a></span>
+				   <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+				   <span><a href="#">Data Visualization</a></span>
+			  </div>
+			  <div>DATA VISUALIZATION</div>
+		  </div>
+		  <div class="sort_label">
+			  <div>
+				  <span>Filter</span>
+				  <span onclick="changeBg(this)" >Visual Display</span>
+				  <span onclick="changeBg(this)">Visual Explanations</span>
+				  <span onclick="changeBg(this)">Envisioning Information</span>
+				  <span onclick="changeBg(this)">Beautiful Evidence</span>
+			  </div>
+			  <div>
+				   <!-- <span>Sort</span>
+				   <span><i class="fa fa-sort-amount-asc" aria-hidden="true"></i></span> -->
+				   <span><img src="../img/Group%2070.png" ></span>
+			  </div>
+		  </div>
+		  
+		  <section class="article">
+			  <div>
+				  <div style="background-image: url(../img/data-vis/1An_Explanation_of_the_Art_of_Flying.png);">
+					  <!-- <img src="../img/sculptures/1Table_pieces.JPG" > -->
+					  <div class="article_show">
+						  <p>An Explanation of the Art of Flying</p>
+						  <p>from Beautiful Evidence, p35</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/2Cezannes_Composition.png);">
+					  <!-- <img src="../img/sculptures/2Hogpen_Hill.JPG" height="100%" > -->
+					  <div class="article_show">
+						  <p>Cèzanne’s Composition</p>
+						  <p>from Beautiful Evidence, p24</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/data-vis/3Birds_of_the_North_America.png);">
+					  <!-- <img src="../img/sculptures/3Millstone_I.JPG" > -->
+					 <div class="article_show">
+						  <p>Birds of the North America</p>
+						  <p>from Beautiful Evidence, p115</p>
+					 </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/4Des_revolutions_des_corps_celestes_par_le_mechaniosme.png);">
+					  <!-- <img src="../img/sculptures/4Magritte’s_Smile.JPG" > -->
+					  <div class="article_show">
+						  <p>Des révolutions des corps célestes par le méchaniosme</p>
+						  <p>from Envisioning Information, p99</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/data-vis/5The_Photographic_work_of_E.J._Marey.png);">
+					  <!-- <img src="../img/sculptures/5The_dancer.JPG" > -->
+					  <div class="article_show">
+						  <p>The Photographic work of E.J. Marey</p>
+						  <p>from Beautiful Evidence, p42</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/6The_bitmap_of_Isador_font_by_Kris_Holmes.png);">
+					  <!-- <img src="../img/sculptures/6Lacy_Walls.JPG" > -->
+					  <div class="article_show">
+						  <p>The bitmap of Isador font by Kris Holmes</p>
+						  <p>from Beautiful Evidence, p48</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/data-vis/7Bundesamt_fur_Landestopographie.png);">
+					  <!-- <img src="../img/sculptures/7Three_Twigs.JPG" > -->
+					  <div class="article_show">
+						  <p>Bundesamt fur Landestopographie</p>
+						  <p>from Beautiful Evidence, p58</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/8Cubism_and_abstract_art.png);">
+					  <!-- <img src="../img/sculptures/8Megalith_with_Six_Elements.JPG" > -->
+					  <div class="article_show">
+						  <p>Cubism and abstract art</p>
+						  <p>from Beautiful Evidence, p64</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/data-vis/9Elaine_Morse_of_Graphics_Press_redrew_the_centau.png);">
+					  <!-- <img src="../img/sculptures/9Continuous_and_Silent.JPG" > -->
+					  <div class="article_show">
+						  <p>Elaine Morse of Graphics Press redrew the centau</p>
+						  <p>from Beautiful Evidence, p86</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/10Revised_body_mas_vs._brain_mass_chart.png);">
+					  <!-- <img src="../img/sculptures/10Escaping_Flatland.JPG" > -->
+					  <div class="article_show">
+						  <p>Revised body mas vs. brain mass chart</p>
+						  <p>from Beautiful Evidence, p121</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/data-vis/11Tableaux_Graphiques_et_Cartes_Figuratives_de_M.Minard.jpg);">
+					  <!-- <img src="../img/sculptures/11The_Black_Swan.JPG" > -->
+					  <div class="article_show">
+						  <p>Tableaux Graphiques et Cartes Figuratives de M.Minard</p>
+						  <p>from Beautiful Evidence, p123-124</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/12Chart_of_the_National_Debt.png);">
+					  <!-- <img src="../img/sculptures/12Millstone_II.JPG" > -->
+					  <div class="article_show">
+						 <p>Chart of the National Debt</p>
+						 <p>The Visual Display of Quantitative Information, p63</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/data-vis/13Casse_Postali_Di_Risparmio_Italine.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>Casse Postali Di Risparmio Italine</p>
+						  <p>The Visual Display of Quantitative Information, p72</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/14Revised_Ad_Reinhardt,_How_to_look_at_things_through_a_wine-glass.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>Revised Ad Reinhardt, How to look at things through a wine-glass</p>
+							  <p>from Visual Explanations, p119</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/15Galileo’s_Lunar_Observations.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>Galileo’s Lunar Observations</p>
+						  <p>from Beautiful Evidence, p99</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/16The_elements_of_Euclid_I.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>The elements of Euclid I</p>
+							  <p>From Envisioning Information, p87</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/17Tokyo_Prefecture.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>Tokyo Prefecture</p>
+						  <p>From Envisioning Information, p58</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/18A_new_plan_of_the_road_from_London_to_Dover.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>A new plan of the road from London to Dover</p>
+							  <p>From Envisioning Information, p112</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/19Neuro_Metrics%20.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>Neuro Metrics</p>
+						  <p>From Envisioning Information, p78</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/20Kurtus_indicus.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>Kurtus indicus</p>
+							  <p>from Beautiful Evidence, p17</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/21NewYork_Railway_Map_and_Time_Schedule.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>NewYork Railway Map and Time Schedule</p>
+						  <p>From Envisioning Information, p108</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/22How_to_ski_by_French_Method_I.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>How to ski by French Method I</p>
+							  <p>from Beautiful Evidence, p36</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/23How_to_ski_by_French_Method_II.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>How to ski by French Method II</p>
+						  <p>from Beautiful Evidence, p37</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/24One_plus_one_equals_three_or_more.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>One plus one equals three or more</p>
+							  <p>from Beautiful Evidence, p61</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/25Waterproof_guide_to_Corals_and_gishes_of_Florida.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>Waterproof guide to Corals and gishes of Florida</p>
+						  <p>from Envisioning Information, p114</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/26Designs_for_the_pav_at_Brighton.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>Designs for the pav at Brighton</p>
+							  <p>from Visual Explanations, p16</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/27Space_Station_Map.png);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>Space Station Map</p>
+						  <p>From Envisioning Information, p47</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/28The_elements_of_Euclid_II.png);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>The elements of Euclid II</p>
+							  <p>From Envisioning Information, p88</p>
+						  </div>
+				  </div>
+			  </div>
+			  
+			  <div>
+				  <div style="background-image: url(../img/data-vis/29diamond_road_signs.jpg);">
+					  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+					  <div class="article_show">
+						  <p>diamond road signs</p>
+						  <p>from ET form</p>
+					  </div>
+				  </div>
+				  <div style="background-image: url(../img/data-vis/30_1970_posters.jpg);">
+						  <!-- <img src="../img/sculptures/13Breaching_Whales.JPG" > -->
+						  <div class="article_show">
+							  <p>1970 posters</p>
+							  <p>from ET form</p>
+						  </div>
+				  </div>
+			  </div>
+
+		  </section>	
+	  </article>
+	<!-- Pic -->  
+	 <div class="PicQuery">
+	 	<script type="text/javascript">
+	 		$(".PicQuery").load("queryPic.html")
+	 	</script>
+	 </div>
+	  
+	  <footer>
+		  <script type="text/javascript">
+			  $("footer").load("footer.html")
+		  </script>
+	  </footer>
+	  
+	  <style type="text/css">
+		  
+	  	  @media (max-width:961px) {
+		   .sort_label{
+				display: block;
+		   }
+		   
+	  	  	.sort_label>div:nth-child(1){
+	  	  		margin-bottom: 0.5rem;
+				flex-wrap: wrap;
+	  	  	}
+			.sort_label>div:nth-child(1)>span{
+				box-sizing: border-box !important;
+				margin-bottom: 0.5rem;
+			}
+			.sort_label>div:nth-child(1)>span:nth-child(1){
+				margin-right: 0;
+			}
+	  	  	.sort_label>div:nth-child(2){
+	  	  		box-sizing: border-box;
+	  	  		width: 100%;
+	  	  		text-align: right;
+	  	  		padding-right: 1rem;
+	  	  	}
+	  	  }
+		  .sort_label>div:nth-child(1)>span:not(:nth-child(1)){
+				padding: 0 0.5rem;
+				margin-left: 0.3rem;
+		  }
+	  </style>
+</body>
+</html>

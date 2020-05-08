@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/books.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/books_media.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/location.css"/>
+	<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/books.js" type="text/javascript" charset="utf-8"></script>
+	<title></title>
+</head>
+<body>
+	  <header>
+		 <script type="text/javascript">
+			$("header").load("headerStyle1.html")
+		 </script>
+	  </header>
+	  
+	  <article class="container-fluid">
+		  <div class="sort_link">
+			  <div class="current_location">
+				   <span><a href="index.html">Home</a></span>
+				   <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+				   <span><a href="#">Work</a></span>
+				   <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+				   <span><a href="books.html">Books</a></span>
+			  </div>
+			  <div>ALL BOOKS</div>
+		  </div>
+		  <div class="sort_label">
+			  <div>
+				  <span>Filter</span>
+				  <span class="check" onclick="changeBg(this)">stats</span>
+				  <span onclick="changeBg(this)">design</span>
+			  </div>
+			  <div>
+			<!-- 	   <span>Sort</span>
+				   <span><i class="fa fa-sort-amount-asc" aria-hidden="true"></i></span> -->
+				   <span><img src="../img/Group%2070.png" ></span>
+			  </div>
+		  </div>
+		  
+		  <section class="article">
+			  <div>
+				  <div style="background-image: url(../img/book1.png);">
+					  <!-- <img src="../img/book1.png" > -->
+					  <a href="article.html?pid=article-BeautifulEvidence.html">
+						  <div class="article_show">
+							  <p>Beautiful Evidence</p>
+						  </div>
+					  </a>
+				  </div>
+				  <div style="background-image: url(../img/book2.png);">
+					  <!-- <img src="../img/book2.png" > -->
+					  <a href="article.html?pid=article-VisualExplanations.html">
+						  <div class="article_show">
+							  <p>Visual Explanations</p>
+						  </div>
+					  </a>
+				  </div>
+			  </div>
+			  <div>
+				  <div style="background-image: url(../img/book3.png);">
+					 <!-- <img src="../img/book3.png" > -->
+					 <a href="article.html?pid=article-EnvisioningInformation.html">
+						  <div class="article_show">
+							  <p>Envisioning Information</p>
+						  </div>
+					 </a>
+				  </div>
+				  <div style="background-image: url(../img/book4.png);">
+					  <!-- <img src="../img/book4.png" > -->
+					  <a href="article.html?pid=article-TheVisualDisplayofQuantitativeInformation.html">
+						  <div class="article_show">
+						      <p>The Visual Display of Qiantitative Infomation</p>
+						  </div>
+					  </a>
+				  </div>
+			  </div>
+		  </section>
+	  </article>
+	  <footer>
+		  <script type="text/javascript">
+			  $("footer").load("footer.html")
+		  </script>
+	  </footer>
+	  
+	
+</body>
+</html>

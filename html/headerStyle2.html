@@ -1,0 +1,47 @@
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/headerStyle2.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+  <script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+  
+  <div class="head nav_side">
+  		<script type="text/javascript">
+  			 $(".head.nav_side").load("nav-side.html")
+  		</script>
+  </div>
+  
+  <nav class="container-fluid">
+		  <ul>
+			  <li>
+				  <span><a href="index.html">EDWARD Tufte</a></span>
+				  <span><i class="fa fa-search" aria-hidden="true"></i></span>
+				  <span id="nav-bar"><i class="fa fa-bars" aria-hidden="true" onclick="slideNav()" ></i></span>
+			  </li>
+			  <li>
+				  <div>
+					  <div><span><a href="bio.html">BIO</a></span></div>
+				  </div>
+				  <div>
+					  <div><span>WORK</span><span><i class="fa fa-angle-down" aria-hidden="true" onclick="toSlide()" ></i></span></div>
+					  <div class="nav2_slide_list">
+						  <span>Design Thinking</span>
+						  <span><a href="books.html">Books</a></span>
+						  <span>Data Visualization</span>
+					  </div>
+				  </div>
+				  <div>
+					  <div><span><a href="play.html">PLAY</a></span><span><i class="fa fa-angle-down" aria-hidden="true"></i></span></div>
+				  
+				  </div>
+			  </li>
+			  <li>
+				  <div class="mobile_search"><i class="fa fa-search" aria-hidden="true"></i><input type="text"  /></div>
+			  </li>
+		  </ul>
+	  </nav>
+	  <script type="text/javascript">
+		  function toSlide(){
+			   $(".nav2_slide_list").slideToggle()
+		  }
+	  </script>
+	

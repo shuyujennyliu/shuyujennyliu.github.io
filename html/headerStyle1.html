@@ -1,0 +1,62 @@
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/headerStyle1.css"/>
+	<script src="../js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	<div class="head nav_side">
+		<script type="text/javascript">
+			 $(".head.nav_side").load("nav-side.html")
+		</script>
+	</div>
+		 <nav>
+			 <ul>
+				<div>
+					<li class="option" id="logo">
+						<a href="index.html">EDWARD</a>
+						<span id="nav-bar"><div class="nav_bar" onclick="slideNav()" ></div></span>
+						<!-- <i class="fa fa-bars" aria-hidden="true" onclick="slideNav()" ></i> -->
+					</li>
+				</div>
+				<div>
+					<li class="option"><a href="index.html">HOME</a></li>
+					<li class="option"><a href="bio.html">BIO</a></li>
+					<li class="option">
+						<a href="#">WORK</a>
+						<div class="nav_side_list">
+							<span><a href="dsign-thinking.html">Design Thinking</a></span>
+							<span><a href="books.html">Books</a></span>
+							<span><a href="Data-Visualization.html">Data Visualization</a></span>
+						</div>
+					</li>
+					<li class="option">
+						<a href="#">PLAY</a>
+						<div class="nav_side_list">
+							<span><a href="play.html">Sculptures</a></span>
+							<span><a href="https://twitter.com/EdwardTufte?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></span>
+							<span><a href="https://www.edwardtufte.com/tufte/">ET Forum</a></span>
+						</div>
+					</li>
+					<li class="option">
+						<span class="nav-search" >
+							<i class="fa fa-search" aria-hidden="true" onclick="search()" ></i>
+							<input type="text" />
+						</span>
+					</li>
+				</div>
+			 </ul>
+	
+		</nav>	
+		<script type="text/javascript">
+			function search(){
+				var obj = $(".nav-search input");
+				if(obj.css("display")=='none'){
+					$(".nav-search").css("width","196.5px")
+					obj.fadeIn()
+				}else{
+					$(".nav-search").css("width","2.9375rem")
+					obj.css("display","none")
+				}
+				
+				//2.9375rem
+			}
+		</script>

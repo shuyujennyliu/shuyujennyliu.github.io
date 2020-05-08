@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+nav{
+	box-sizing: border-box;
+	width: 100%;
+	height: 9.8125rem;
+	background-color: #282828;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+/* header *{
+		border: 1px solid red;
+} */
+nav>ul{
+	box-sizing: border-box;
+	width: 100%;
+	list-style: none;
+	/* padding: 0 3rem 0; */
+}
+nav>ul>li{
+	/* margin: 1rem 1rem 1rem 0; */
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+}
+nav>ul>li a{
+	color: white;
+}
+nav>ul>li:nth-child(1){
+	justify-content: space-between;
+}
+nav>ul>li:nth-child(1)>span:nth-child(1){ /* title */
+	font-family: "Domaine";
+	font-size: 1.2em;
+}
+/* nav>ul>li:nth-child(1)>span:nth-child(1)>a{
+	color: white;
+} */
+nav>ul>li:nth-child(1)>span:nth-child(2){ /* searchICON */
+	display: inline-block;
+	border: 1px solid white;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	line-height: 1.8rem;
+}
+nav>ul>li:nth-child(1)>span:nth-child(3){
+	font-size: 1.3em;
+	display: none;
+}
+nav>ul>li:nth-child(2)>div{
+	position: relative;
+}
+nav>ul>li:nth-child(2)>div>div:nth-child(1){
+	width: 12.3125rem;
+	border-top: 0.0625rem solid #4F4F4F;
+	display: flex;
+	margin: 1rem 1rem 1rem 0;
+	justify-content: space-between;
+}
+.mobile_search{
+	box-sizing: border-box;
+	display: none;
+	width: 95%;
+	padding: 0.6rem 0 0.6rem;
+	border: 1px solid white;
+	margin: 1rem auto;
+	align-items: center;
+}
+.mobile_search>i{
+	margin: 0 0.8rem 0;
+}
+.mobile_search>input{
+	outline: none;
+	border: none;
+	color: white;
+}
+.nav2_slide_list{
+	box-sizing: border-box;
+	width: 100%;
+	position: absolute;
+	background-color: #282828;
+	padding: 0 1.5rem;
+	box-shadow: 2px 0 5px #000000;
+	display: none;
+}
+.nav2_slide_list>span{
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+}
+.nav2_slide_list>span:nth-child(-n+2){
+	border-bottom: 1px solid #C4C4C4;
+}
+.fa.fa-angle-down:hover{
+	cursor: pointer;
+}
+@media (max-width:961px) {
+	nav{
+		padding-top: 6%;
+	}
+	nav>ul>li:nth-child(1){
+		width: 95%;
+		margin: 0 auto;
+	}
+	nav>ul>li:nth-child(1)>span:nth-child(2){
+		display: none;
+	}
+	nav>ul>li:nth-child(1)>span:nth-child(3){
+		display: block;
+	}
+	nav>ul>li:nth-child(2){
+		display: none;
+	}
+	.mobile_search{
+		display: flex;
+	}
+}

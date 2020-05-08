@@ -1,0 +1,45 @@
+@font-face {
+	font-family:Domaine;
+	src: url(../fonts/DomaineDisplay-Regular.otf);
+}
+@font-face {
+	font-family:Gill;
+	src: url(../fonts/GillSans-LightItalic.otf);
+}
+@font-face {
+	font-family:GaramondPremrPro;
+	src: url(../fonts/GaramondPremrPro.otf);
+}
+@font-face {
+	font-family:gillsans;        /* regular */
+	src: url(../fonts/gillsans.ttf);
+}
+@font-face {
+	font-family:GillSansItalic;
+	src: url('../fonts/Gill Sans MT Italic.ttf');
+}
+@font-face {
+	font-family:RobotoRegular;
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family:RobotoThinItalic;
+	src: url('../fonts/Roboto-LightItalic.ttf');
+}
+@font-face {
+	font-family:'GillSansMTPro-LightItalic';
+	src: url('../fonts/Monotype - GillSansMTPro-LightItalic.otf');
+}
+@font-face {
+	font-family:'Roboto-Light';
+	src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+	font-family:gillsansRegular;
+	src: url('../fonts/Monotype - GillSansMTStd-Medium.otf');
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../fonts/Roboto-Medium.ttf');
+}

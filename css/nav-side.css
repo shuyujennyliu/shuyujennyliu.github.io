@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: none;
+	/* border: 1px solid red; */
+}
+body{
+	position: relative;
+}
+.head.nav_side{
+	display: none;
+	position: absolute;
+	padding-top: 6.25rem;
+	width: 50%;
+	left: 100%;
+}
+.head.nav_side>ul{
+	font-size: 1.5em;
+}
+.head.nav_side>ul>li{
+	margin: 1.25rem auto;
+}
+.foot.nav_side>ul>li:nth-child(1){
+	display: none;
+}
+.nav_side{
+	box-sizing: border-box;
+	background: #282828;
+	color: white;
+	z-index: 999;
+	font-family: "gillsans";
+}
+.nav_side a{
+	color: white;
+}
+.nav_side a:hover{
+	text-decoration: none;
+}
+.nav_side i:hover,.nav-side-list *:hover,.nav_side>ul>li>span:hover{
+	cursor: pointer;
+}
+.nav_side>ul{
+	list-style: none;
+	text-align: center;	
+	padding: 0;
+	margin: 0;
+}
+.nav_side>ul>li{
+	width: 80%;
+	text-align: left;
+	margin: 0.5rem auto;
+}
+.nav_side>ul>li{  /* :not(:nth-child(1)) */
+	border-top: 1px solid #4F4F4F;
+}
+.nav_side>ul>li>i{
+	font-size: 1.5em;
+	float: right;
+}
+
+.nav-side-list{
+	font-size: 1rem;
+	display: none;
+	font-family: 'Roboto-Light';
+	padding-top: 0.5rem;
+}
+.nav-side-list>span{
+	display: block;
+    background: #282828;
+	width: 100%;
+	font-size: 0.9em;
+}
+.nav-side-list>span>a:hover{
+	color: #B44242;
+}
+.foot.nav_side{
+	display: block;
+	width: 35%;
+}
+
+.foot.nav_side ul li{
+	width: 100%;
+}
+
+
+@media (max-width:961px) {
+	.foot.nav_side{
+		width: 100%;
+	}
+}

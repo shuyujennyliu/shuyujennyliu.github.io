@@ -1,0 +1,15 @@
+.current_location{
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-right: 5rem;
+}
+.current_location>span:nth-child(2n+1)>a{
+	color: #B44242;
+	text-decoration: underline;
+}
+.current_location>span>i,.current_location>span:nth-last-child(1)>a{
+	text-decoration: none;
+	color: #A9A9A9;
+}
